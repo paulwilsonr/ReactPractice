@@ -1,5 +1,5 @@
 
-import Overview from './components/overview';
+import Overview from './components/Overview';
 import React, { Component } from 'react';
 
 class App extends Component {
