@@ -1,4 +1,4 @@
-import './App.css';
+
 import Overview from './components/overview';
 import React, { Component } from 'react';
 
