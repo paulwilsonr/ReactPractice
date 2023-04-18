@@ -24,44 +24,7 @@ return(
       </div>
 )
 }
-/*
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      task: '',
-      taskArr: []
-    }
-  };
-  
-  handleChange = (e) => {
-    this.setState({
-      task: e.target.value
-    });
-  };
 
-  handleClick = () => {
-    this.setState({
-      taskArr: this.state.taskArr.concat(this.state.task),
-      task: ''
-    });
-  };
-
-  render() {
-    const {task, taskArr} = this.state;
-    return (
-      <div>
-        <input onChange={this.handleChange} type='text' value={task}></input>
-        <button onClick={this.handleClick}>Create New Task</button>
-
-        <Overview taskArr={taskArr} />
-      </div>
-    )
-  }
-
-
-}
-*/
 
 
 export default App;
