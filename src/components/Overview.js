@@ -1,5 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 
+function Overview (taskArr) {
+    return (
+        <ol>
+            {taskArr.taskArr.map(x => <li>{x}</li>)}
+        </ol>
+    )
+}
+
+
+/*
 class Overview extends Component {
     constructor(props) {
         super(props)
@@ -12,7 +22,7 @@ class Overview extends Component {
         )
     }
 };
-
+*/
 
 
 export default Overview;
